@@ -129,7 +129,7 @@ jobs:
         uses: ophub/amlogic-s9xxx-armbian@main
         with:
           build_target: armbian
-          armbian_path: build/output/images/*.img
+          armbian_path: build/output/images/https://armbian.tnahosting.net/dl/odroidn2/archive/Armbian_22.08.1_Odroidn2_jammy_current_5.10.139_budgie_desktop.img.xz
           armbian_soc: s905d_s905x3_s922x_s905x
           armbian_kernel: 5.10.125_5.15.50
 
